@@ -1,0 +1,3 @@
+voice_manager_node:
+  ros__parameters:
+    id_to_text_csv: "/home/kazuma/voice_ws/src/voice_manager/config/id_to_text.csv"

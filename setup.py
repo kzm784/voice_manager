@@ -10,13 +10,15 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/config', ['config/config_voice_manager.yaml']),
+        ('share/' + package_name + '/launch', ['launch/voice_manager.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='kazuma',
     maintainer_email='kazulab10969@outlook.jp',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Voice manager package for ROS 2',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
