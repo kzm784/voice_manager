@@ -32,7 +32,7 @@ The `voice_manager` package is designed for managing text-to-speech interactions
 ### Launching the Node
 Run the `voice_manager` node using the launch file:
 ```bash
-ros2 launch voice_manager voice_manager_launch.py
+ros2 launch voice_manager voice_manager.launch.py
 ```
 
 ### Configuration
