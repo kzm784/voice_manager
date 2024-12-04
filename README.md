@@ -60,4 +60,4 @@ The corresponding text will be published on the `speak` topic.
 - Verify the correctness of your `id_to_text.csv` file and its path in the YAML configuration.
 
 ## License
-[MIT](LICENSE)
+[MIT license](LICENSE)
